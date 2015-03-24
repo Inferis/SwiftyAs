@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2880FF51AC21481006B4D8E /* libSwiftyAs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2880FE91AC21481006B4D8E /* libSwiftyAs.a */; };
+		E28810021AC21498006B4D8E /* SwiftyAsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E28810011AC21498006B4D8E /* SwiftyAsTests.m */; };
+		E288100B1AC21667006B4D8E /* NSObject+SwiftyAs.h in Headers */ = {isa = PBXBuildFile; fileRef = E28810091AC21667006B4D8E /* NSObject+SwiftyAs.h */; };
+		E288100C1AC21667006B4D8E /* NSObject+SwiftyAs.m in Sources */ = {isa = PBXBuildFile; fileRef = E288100A1AC21667006B4D8E /* NSObject+SwiftyAs.m */; };
+		E288100D1AC21667006B4D8E /* NSObject+SwiftyAs.m in Sources */ = {isa = PBXBuildFile; fileRef = E288100A1AC21667006B4D8E /* NSObject+SwiftyAs.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2880FF61AC21481006B4D8E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2880FDF1AC21473006B4D8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2880FE81AC21481006B4D8E;
+			remoteInfo = SwiftyAs;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2880FE91AC21481006B4D8E /* libSwiftyAs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSwiftyAs.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2880FF41AC21481006B4D8E /* SwiftyAsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftyAsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2880FFA1AC21481006B4D8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E28810011AC21498006B4D8E /* SwiftyAsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiftyAsTests.m; sourceTree = "<group>"; };
+		E28810091AC21667006B4D8E /* NSObject+SwiftyAs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SwiftyAs.h"; sourceTree = "<group>"; };
+		E288100A1AC21667006B4D8E /* NSObject+SwiftyAs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SwiftyAs.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2880FE61AC21481006B4D8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2880FF11AC21481006B4D8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2880FF51AC21481006B4D8E /* libSwiftyAs.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2880FDE1AC21473006B4D8E = {
+			isa = PBXGroup;
+			children = (
+				E28810081AC21667006B4D8E /* SwiftyAs */,
+				E2880FF81AC21481006B4D8E /* SwiftyAsTests */,
+				E2880FEA1AC21481006B4D8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2880FEA1AC21481006B4D8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2880FE91AC21481006B4D8E /* libSwiftyAs.a */,
+				E2880FF41AC21481006B4D8E /* SwiftyAsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2880FF81AC21481006B4D8E /* SwiftyAsTests */ = {
+			isa = PBXGroup;
+			children = (
+				E28810011AC21498006B4D8E /* SwiftyAsTests.m */,
+				E2880FF91AC21481006B4D8E /* Supporting Files */,
+			);
+			path = SwiftyAsTests;
+			sourceTree = "<group>";
+		};
+		E2880FF91AC21481006B4D8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2880FFA1AC21481006B4D8E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E28810081AC21667006B4D8E /* SwiftyAs */ = {
+			isa = PBXGroup;
+			children = (
+				E28810091AC21667006B4D8E /* NSObject+SwiftyAs.h */,
+				E288100A1AC21667006B4D8E /* NSObject+SwiftyAs.m */,
+			);
+			name = SwiftyAs;
+			path = ../SwiftyAs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E2880FE71AC21481006B4D8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E288100B1AC21667006B4D8E /* NSObject+SwiftyAs.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E2880FE81AC21481006B4D8E /* SwiftyAs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2880FFB1AC21481006B4D8E /* Build configuration list for PBXNativeTarget "SwiftyAs" */;
+			buildPhases = (
+				E2880FE51AC21481006B4D8E /* Sources */,
+				E2880FE61AC21481006B4D8E /* Frameworks */,
+				E2880FE71AC21481006B4D8E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyAs;
+			productName = SwiftyAs;
+			productReference = E2880FE91AC21481006B4D8E /* libSwiftyAs.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E2880FF31AC21481006B4D8E /* SwiftyAsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2880FFE1AC21481006B4D8E /* Build configuration list for PBXNativeTarget "SwiftyAsTests" */;
+			buildPhases = (
+				E2880FF01AC21481006B4D8E /* Sources */,
+				E2880FF11AC21481006B4D8E /* Frameworks */,
+				E2880FF21AC21481006B4D8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2880FF71AC21481006B4D8E /* PBXTargetDependency */,
+			);
+			name = SwiftyAsTests;
+			productName = SwiftyAsTests;
+			productReference = E2880FF41AC21481006B4D8E /* SwiftyAsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2880FDF1AC21473006B4D8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				TargetAttributes = {
+					E2880FE81AC21481006B4D8E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					E2880FF31AC21481006B4D8E = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = E2880FE21AC21473006B4D8E /* Build configuration list for PBXProject "SwiftyAs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E2880FDE1AC21473006B4D8E;
+			productRefGroup = E2880FEA1AC21481006B4D8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2880FE81AC21481006B4D8E /* SwiftyAs */,
+				E2880FF31AC21481006B4D8E /* SwiftyAsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2880FF21AC21481006B4D8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2880FE51AC21481006B4D8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E288100C1AC21667006B4D8E /* NSObject+SwiftyAs.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2880FF01AC21481006B4D8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E288100D1AC21667006B4D8E /* NSObject+SwiftyAs.m in Sources */,
+				E28810021AC21498006B4D8E /* SwiftyAsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2880FF71AC21481006B4D8E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2880FE81AC21481006B4D8E /* SwiftyAs */;
+			targetProxy = E2880FF61AC21481006B4D8E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E2880FE31AC21473006B4D8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		E2880FE41AC21473006B4D8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		E2880FFC1AC21481006B4D8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E2880FFD1AC21481006B4D8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E2880FFF1AC21481006B4D8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = SwiftyAsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E28810001AC21481006B4D8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = SwiftyAsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2880FE21AC21473006B4D8E /* Build configuration list for PBXProject "SwiftyAs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2880FE31AC21473006B4D8E /* Debug */,
+				E2880FE41AC21473006B4D8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2880FFB1AC21481006B4D8E /* Build configuration list for PBXNativeTarget "SwiftyAs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2880FFC1AC21481006B4D8E /* Debug */,
+				E2880FFD1AC21481006B4D8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2880FFE1AC21481006B4D8E /* Build configuration list for PBXNativeTarget "SwiftyAsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2880FFF1AC21481006B4D8E /* Debug */,
+				E28810001AC21481006B4D8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2880FDF1AC21473006B4D8E /* Project object */;
+}
