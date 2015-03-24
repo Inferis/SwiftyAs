@@ -23,7 +23,7 @@ let dict: source as? NSDictionary
 With **SwiftyAs** you can do the same in Objective-C:
 
 ```objc
-NSObject *dict = [NSDictionary new];
+NSObject *source = [NSDictionary new];
 
 NSArray* array = source.as(NSArray);
 // array = nil
