@@ -31,7 +31,7 @@ NSDictionary* dict = source.as(NSDictionary);
 // dict = source
 ```
 
-And that's about. You can do the same with a isKindOfClass: check, of course, because that's what this just is. It's only wrapped a little nicer.
+And that's about it. You can do the same with a isKindOfClass: check, of course, because that's what this just is. It's only wrapped a little nicer.
 
 ## License
 
