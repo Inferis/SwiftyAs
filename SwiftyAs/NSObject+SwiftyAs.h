@@ -6,10 +6,11 @@
 
 #import <Foundation/Foundation.h>
 
-#define as(TYPE) as([TYPE class])
+#define as(TYPE) ii_as([TYPE class])
+#define AS(obj, TYPE) ((obj) ? (((NSObject *)(obj)).ii_as([TYPE class])) : nil)
 
 @interface NSObject (SwiftyAs)
 
-@property (nonatomic, strong, readonly) id(^as)(Class ofClass);
+@property (nonatomic, strong, readonly) id(^ii_as)(Class ofClass);
 
 @end

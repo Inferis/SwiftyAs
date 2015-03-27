@@ -30,5 +30,11 @@
     XCTAssertEqualObjects(obj.as(NSDictionary), obj);
 }
 
+- (void)test_As_WithNilOwner_ReturnsNil
+{
+    NSObject *nilObj = nil;
+    XCTAssertNil(AS(nilObj, NSArray));
+}
+
 
 @end

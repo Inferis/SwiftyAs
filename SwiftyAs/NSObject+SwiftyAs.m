@@ -7,7 +7,7 @@
 
 @implementation NSObject (SwiftyAs)
 
-- (id (^)(__unsafe_unretained Class))as {
+- (id (^)(__unsafe_unretained Class))ii_as {
     __weak typeof(self) welf = self;
     return ^(Class ofClass) {
         return [welf isKindOfClass:ofClass] ? welf : nil;
